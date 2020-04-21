@@ -1,1 +1,0 @@
-# jakubgoc.github.io
