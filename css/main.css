@@ -403,6 +403,33 @@ template {
       .skills-list--blue .skills-list__title::before {
         background: #2251cc; }
 
+.projects {
+  background: #F5F7FA;
+  padding: 8rem; }
+  .projects__description {
+    font-weight: 300;
+    font-size: 1.25rem;
+    line-height: 2.25rem;
+    color: #52606d;
+    max-width: 580px; }
+  .projects__title {
+    font-size: 2.25rem;
+    margin: 0 auto;
+    font-weight: 600;
+    font-style: normal;
+    padding: 1rem 0;
+    max-width: 1184px; }
+
+.projects-list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -webkit-column-gap: 1.5rem;
+     -moz-column-gap: 1.5rem;
+          column-gap: 1.5rem;
+  row-gap: 1.5rem; }
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -420,5 +447,10 @@ body {
   border: 16px solid #171f3f;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
+
+.container {
+  max-width: 1216px;
+  padding: 0 16px;
+  margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
