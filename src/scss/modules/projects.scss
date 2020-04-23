@@ -3,8 +3,8 @@
     padding: 8rem;
 
     &__description {
-        font-weight:300;
-        font-size:1.25rem;
+        font-weight: 300;
+        font-size: 1.25rem;
         line-height: 2.25rem;
         color: $gray;
         max-width: 580px;
@@ -18,4 +18,11 @@
         padding: 1rem 0;
         max-width: 1184px;
     }
+}
+
+.projects-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1.5rem;
+    row-gap: 1.5rem;
 }
