@@ -8,15 +8,16 @@
         line-height: 2.25rem;
         color: $gray;
         max-width: 580px;
+        margin: 0 0 4rem;
     }
 
     &__title {
         font-size: 2.25rem;
-        margin: 0 auto;
+        margin: 0 auto 1rem;
         font-weight: 600;
         font-style: normal;
-        padding: 1rem 0;
-        max-width: 1184px;
+        padding: 1rem 16px;
+        max-width: 1216px;
     }
 }
 
@@ -62,14 +63,14 @@
         line-height: 2rem;
         display: inline-flex;
         align-items: center;
-        & + &{
+        & + & {
             margin-left: 50px;
             position: relative;
-            &::after{
-                content: '';
+            &::after {
+                content: "";
                 height: 2rem;
                 width: 2px;
-                background: #CBD2D9;
+                background: #cbd2d9;
                 display: block;
                 position: absolute;
                 left: -26px;
@@ -79,14 +80,13 @@
         &::before {
             display: block;
             content: "";
-            margin-right:8px;
+            margin-right: 8px;
             width: 24px;
             height: 24px;
             background: url("../assets/img/demo.svg") center center no-repeat;
         }
-        &--code::before{
+        &--code::before {
             background: url("../assets/img/source.svg") center center no-repeat;
-
         }
     }
 
