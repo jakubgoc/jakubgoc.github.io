@@ -2,11 +2,9 @@
     max-width: 1216px;
     padding: calc(8rem-16px) 16px 11.5rem;
     margin: 0 auto;
-
     @media (max-wdith: $mobile) {
         padding-top: 64px 16px 120px;
     }
-
     &__description {
         color: $gray;
         font-style: normal;
@@ -16,22 +14,18 @@
         max-width: 780px;
         margin-bottom: 3.75rem;
     }
-
     &__image {
         width: 120px;
         height: 120px;
-
         @media (max-wdith: $mobile) {
             width: 80px;
             height: 80px;
         }
     }
-
     &__link {
         color: $blue;
         font-weight: 500;
     }
-
     &__mail {
         color: $blue;
         font-weight: 500;
@@ -40,7 +34,6 @@
         padding-bottom: 8px;
         border-bottom: 2px solid $blue;
     }
-
     &__title {
         font-style: normal;
         font-weight: 600;
@@ -48,7 +41,6 @@
         line-height: 3.5rem;
         max-width: 780px;
         margin: 2rem 0 1rem;
-
         @media (max-wdith: $mobile) {
             margin: 16px 0 8px;
         }

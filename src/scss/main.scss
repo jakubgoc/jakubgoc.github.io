@@ -1,6 +1,5 @@
 @import "_normalize";
 @import "_variables";
-
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext");
 
 @import "modules/hero.scss";
@@ -13,13 +12,11 @@ html {
   font-size: 16px;
   scroll-behavior: smooth;
   @media (max-width: $mobile) {
-    font-size: 12px;
+    font-size: 11px;
   }
 }
 
-*,
-*:before,
-*:after {
+*, *:before, *:after {
   box-sizing: inherit;
 }
 
