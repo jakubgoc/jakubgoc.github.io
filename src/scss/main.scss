@@ -1,7 +1,7 @@
 @import "_normalize";
 @import "_variables";
 
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext');
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600&display=swap&subset=latin-ext");
 
 @import "modules/hero.scss";
 @import "modules/skills.scss";
@@ -17,20 +17,26 @@ html {
   }
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
 body {
   color: $big-stone;
   background: #fff;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   border: 16px solid $big-stone;
   -webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: $mobile) {
+    border: none;
+  }
 }
 
-.container{
+.container {
   max-width: 1216px;
   padding: 0 16px;
   margin: 0 auto;

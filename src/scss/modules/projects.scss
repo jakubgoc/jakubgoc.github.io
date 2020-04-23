@@ -1,6 +1,6 @@
 .projects {
     background: $light-gray;
-    padding: 8rem;
+    padding: 8rem 0;
 
     &__description {
         font-weight: 300;
@@ -29,6 +29,9 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+    @media (max-width: $mobile){
+        grid-template-columns: repeat(auto-fill, minmax(290px 1fr));
+    }
 }
 
 .project {
@@ -95,6 +98,6 @@
         font-weight: 600;
         font-size: 1.25rem;
         line-height: 2.25rem;
-        margin: 1rem, 0.5rem;
+        margin: 1rem, 0 .5rem;
     }
 }
