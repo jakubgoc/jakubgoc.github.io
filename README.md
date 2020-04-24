@@ -6,7 +6,7 @@ My personal website built
 
 ## Tools used
 
-- Visual STudiop Code
+- Visual Studio Code
 - SASS
 - Fetch API
 - CSS Grid
