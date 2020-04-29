@@ -2,7 +2,7 @@
 
 # Jakub Goc Personal Website built to present projects and abilities
 
-My personal website built 
+My personal website
 
 ## Tools used
 
